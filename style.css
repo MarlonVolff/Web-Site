@@ -78,6 +78,7 @@ body {
 }
 .home-text {
     max-width: 30rem;
+    margin-top: 50px;
 }
 .home-text .text-h4 {
     text-align: center;
@@ -93,7 +94,9 @@ body {
 }
 
 .home-text .text-p {
-    text-align: center;
+    text-align: justify;
+    margin-bottom: 14px;
+    line-height: 150%;
 }
 
 .btn:hover{
@@ -117,13 +120,42 @@ body {
     justify-content: center;
     margin-block: 10px;
 }
-.como-trabalho-text {
-    height: 100px;
-    text-align: center;
-    padding: 0 200px;
+.about-about-description {
+    flex: 1;
 }
-.como-trabalho h2 {
+.about-description h2 {
     font-size: 28px;
+    margin-bottom: 24px;
+}
+.about-description p {
+    text-align: justify;
+    margin-bottom: 14px;
+    line-height: 150%;
+}
+.about {
+    background-color: #f1e5e5;
+    overflow: hidden;
+    color: #040f1a;
+    margin-top: 100px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 10px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.about-content div {
+    flex: 1;
+}
+.fotoimg{
+    height: 400px;
+    float: right;
+    margin-right: 300px;
 }
 @media (max-width:785px) {
     .navigation{
@@ -162,7 +194,6 @@ body {
     .home{
         padding: 100px 2%;
         flex-direction: column;
-        text-align: center;
         overflow: hidden;
         gap: 5rem;
     }
@@ -176,13 +207,39 @@ body {
     .home p{
         font-size: 15px;
     }
-    .home-img{
-        width: 130%;
+    .about-about-description {
+        flex: 1;
     }
-    .como-trabalho-text {
-        padding: 0 50px;
+    .about-description h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
     }
-    .como-trabalho p {
-        font-size: 16px;
+    .about-description p {
+        text-align: justify;
+        margin-bottom: 14px;
+        line-height: 150%;
+    }
+    .about {
+        background-color: #f1e5e5;
+        overflow: hidden;
+        color: #040f1a;
+        margin-top: 100px;
+    }
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        padding: 10px;
+    }
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .about-content div {
+        flex: 1;
+    }
+    .about-content {
+        flex-direction: column;
     }
 }
