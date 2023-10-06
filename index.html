@@ -14,24 +14,27 @@
         z-index: 9999;
     }
     .slider-container {
+        display: flex;
         width: 100%;
         overflow: hidden;
+        flex-wrap: wrap;
     }
 
-        
     .slider-content {
-        display: flex;
         transition: transform 0.5s ease;
     }
 
-        
     .card {
         flex: 0 0 300px;
-        background-color: #f5f5f5;
-        border: 1px solid #ddd;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #e2bcbc;
+        border: 1px solid #8f8686;
         border-radius: 8px;
-        margin: 10px;
+        margin: 18px;
         text-align: center;
+        flex-grow: 1;
+        flex-basis: 250px;
     }
 
     .card img {
@@ -90,7 +93,6 @@
                 <div>
                     <img class="fotoimg"
                         src="img/fotoimg.jpeg"
-                        alt="Conversa"
                     />
                 </div>
                 <div class="about-description">
