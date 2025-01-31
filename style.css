@@ -194,6 +194,79 @@ body {
     float: right;
     margin-right: 300px;
 }
+
+footer{
+    background-color: #e9967a;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 40 px;
+    color: #fff;
+    margin-top: 50px;
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 auto;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    margin: 10px;
+}
+
+.socials a:hover i{
+    color: #d63a25;
+}
+
+/* .footer-content{
+    background-color: #040f1a;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+} */
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
 @media (max-width:785px) {
     .navigation{
         padding: 18px 20px;
